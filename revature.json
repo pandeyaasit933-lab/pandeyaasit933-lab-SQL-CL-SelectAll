@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/GetAllSongsTest.java",
+      "testCases": [
+        {
+          "methodName": "getAllSongsTest",
+          "label": "Verify selecting all songs from the song table",
+          "description": "Runs problem1(), which should return all rows from the song table as Song objects. Compares the result to the expected list containing 'Let it be', 'Hotel California', and 'Kashmir'."
+        }
+      ]
+    }
+  ]
+}
